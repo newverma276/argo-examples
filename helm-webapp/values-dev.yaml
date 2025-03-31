@@ -1,6 +1,7 @@
 
-replicas: jjjk
+replicas: 1
 
 configmap:
   data:
     CUSTOM_HEADER: 'This is on the DEV environment!'
+    SECRET_VALUE: 'PASSWORD_IS_HERE'
